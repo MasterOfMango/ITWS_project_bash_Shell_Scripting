@@ -1,0 +1,1 @@
+23 20 15-21 */2 3 find -mtime -90 | xargs -n1 -i scp -r {} divyesh.jain@mirage:~/ 
